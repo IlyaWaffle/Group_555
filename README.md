@@ -1,9 +1,9 @@
 ## This is some project on GitHub account.
 
-1. Делаем "fork" интересуещего нас репозитория.
-2. Мы делаем "git clone" для нашей версии этого репозитория
-3. Мы создаем ветку с предлагаемыми изменениями.
-4. Производим все изменения только в этой ветке.
-5. Отправляем ("Push") эти изменения на свой аккаунт GitHub.
-6. В окне на GitHub аоявляется возможность предложить свои изменения ("pull request").
-7. Берем пирожок с полки, там два, наш средний.
+1. We make a "fork" of the repository we are interested in.
+2. We do a "git clone" on our version of this repository
+3. We create a branch with the proposed changes.
+4. We make all changes only in this branch.
+5. Push ("Push") these changes to your GitHub account.
+6. In the window on GitHub there is an opportunity to offer your changes ("pull request").
+7. We take a patty from the shelf, there are two, our middle one.
