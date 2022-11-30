@@ -1,6 +1,3 @@
-***This is first commit***
-commit from github!
-
 # Инструкция по работе с _**"git"**_
 
 ## Что такое _**"git"**_
