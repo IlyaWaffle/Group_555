@@ -1,35 +1,27 @@
-﻿//task № 2
-//Напишите программу, которая на вход принимает два числа и выдаёт, какое число большее, а какое меньшее.
-/*a = 5; b = 7 -> max = 7
-a = 2 b = 10 -> max = 10
-a = -9 b = -3 -> max = -3*/
+﻿/*Task №4:
+Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
+2, 3, 7 -> 7
+44 5 78 -> 78
+22 3 9 -> 22 */
 
-int num_1 = 0, num_2 = 0;
-int max = 0, min = 0;
-
-Console.Write($"Введите первое число: ");
-string userEnterFirst = Console.ReadLine()!;
-num_1 = Convert.ToInt32(userEnterFirst);
-
-Console.Write($"Введите второе число: ");
-string userEnterSecond = Console.ReadLine()!;
-num_2 = Convert.ToInt32(userEnterSecond);
-
-// решения задачи через if, else
-if (num_1 < num_2)
+Console.Write($"Введите число: ");
+int a = Convert.ToInt32(Console.ReadLine());
+Console.Write($"Введите число: ");
+int b = Convert.ToInt32(Console.ReadLine());
+Console.Write($"Введите число: ");
+int c = Convert.ToInt32(Console.ReadLine());
+int maxx = 0;
+if (a > b)
 {
-    min = num_1;
-    max = num_2;
-    Console.WriteLine($" Min = {min}");
-    Console.WriteLine($" Max = {max}");
-}
-else
-{
-    if (num_1 > num_2)
+    if (a > c)
     {
-        min = num_2;
-        max = num_1;
-        Console.WriteLine($"Min = {min}");
-        Console.WriteLine($"Max = {max}");
+        maxx = a;
     }
+    else maxx = c;
 }
+else if (b > c)
+{
+    maxx = b;
+}
+else maxx = c;
+Console.WriteLine($"{maxx} - Это наибольшее число из трех.");
