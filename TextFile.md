@@ -84,7 +84,7 @@ Ctrl+s сохранить
 
 ## Images
 
-![](image.png)
+![](image_git.png)
 
 ## Примечания
 
