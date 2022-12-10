@@ -1,31 +1,46 @@
-﻿/*Задача 21
-Напишите программу, которая принимает на вход координаты 
-    двух точек и находит расстояние между ними в 3D пространстве.
+﻿
+//Задача 19
 
-A (3,6,8); B(2, 1, -7), -> 15.84
+//Напишите программу, которая принимает на вход пятизначное число и проверяет, является ли оно палиндромом.
 
-A(7, -5, 0); B(1, -1, 9)-> 11.53*/
+//14212 -> нет
 
-int A_x, A_y, A_z, B_x, B_y, B_z;  // Задаем переменные по осям X Y Z
+//12821 -> да
 
-Console.Write($"Введите координату x в точке A: ");
-int.TryParse(Console.ReadLine(), out A_x);
-Console.Write($"Введите координату y в точке А: ");
-int.TryParse(Console.ReadLine(), out A_y);
-Console.Write($"Введите координату z в точке A: ");
-int.TryParse(Console.ReadLine(), out A_z);
-Console.Write($"Введите координату х в точке В: ");
-int.TryParse(Console.ReadLine(), out B_x);
-Console.Write($"Введите координату y в точке В: ");
-int.TryParse(Console.ReadLine(), out B_y);
-Console.Write($"Введите координату z в точке B: ");
-int.TryParse(Console.ReadLine(), out B_z);
+//23432 -> да
+// Вообщем я запутался :( программа работает только на 5 тизначное значение
+Console.Write("Введите число: ");
+string userEnter = Console.ReadLine()!;
+// показывает длинну массива
+int arrayLength = userEnter.Length;
+// она нужна чтобы печатать массвив с конца
+int arrayLength2 = userEnter.Length;
+// Счетчик операций если программа сработала запишется на 1 больше
+int checkArray = 0;
 
-int x = (B_x - A_x) * (B_x - A_x);
-int y = (B_y - A_y) * (B_y - A_y);
-int z = (B_z - A_z) * (B_z - A_z);
-int xyz = x + y + z;
-double ans = Math.Round(Math.Sqrt(xyz), 2);  // Round(Double) Округляет значение с плавающей запятой двойной точности до ближайшего целого значения; значения посередине округляются до ближайшего четного числа.
-                                             //Math.Sqrt Возвращает квадратный корень из указанного числа.
-Console.WriteLine("Операция успешна!\n ===============");
-Console.Write($"Расстояние между точками A и В = {ans}");
+/* Пока индекс меньше длинны массива выполняется 
+чтобы дойти до середины 
+и не проходить весь массив делем на 2*/
+for (int i = 0; i < arrayLength / 2; i++)
+{
+    // чтобы печаталось с конца уменьшаем на 1
+    arrayLength2 -= 1;
+
+    // Если 1 и 4 значения одинаковы     
+    if (userEnter[i] == userEnter[arrayLength2])
+    {
+        //Добавляем в счетцик + 1
+        checkArray++;
+    }
+}
+// Если счетик не равен 2
+if (checkArray != 2)
+{
+    // Вывод нет
+    Console.WriteLine("НЕТ");
+}
+else
+{
+    // Если = 2 да
+    Console.WriteLine("Да");
+}
