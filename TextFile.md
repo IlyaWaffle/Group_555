@@ -1,4 +1,4 @@
 ***This is first commit***
 commit from github!
 
-Добавлено ДЗ от ![Абрамова Д.](/Dmitry_Abramov)
+Добавлено ДЗ от [Абрамова Д.](/Dmitry_Abramov)
