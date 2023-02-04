@@ -1,6 +1,3 @@
-***This is first commit***
-commit from github!
-
 # Настройка Git-а и основные команды.
 
 * git version - узнаем установлен ли Git и какая версия его.
