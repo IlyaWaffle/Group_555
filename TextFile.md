@@ -14,3 +14,9 @@ _git push_-  use it if you want to transfer your changes or addings from local i
 4. use command _git remote add origin link(of your remote repository)_(origin -it's only name)
 5. after that if you want to move some changes from your local repository into remote use _git push -u origin master_
 6. next you can use _git push_ instead of _git push -u origin master_
+
+## if you want to create or delete branches
+* create new branch
+* checkout a new branch
+* _git push -u origin **name  of new branch**_
+* _git push -d origin ** name of branch**_
