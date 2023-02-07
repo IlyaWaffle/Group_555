@@ -19,4 +19,4 @@ _git push_-  use it if you want to transfer your changes or addings from local i
 * create new branch
 * checkout a new branch
 * _git push -u origin **name  of new branch**_
-* _git push -d origin ** name of branch**_
+* _git push -d origin **name of branch**_
