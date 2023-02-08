@@ -1,2 +1,1 @@
-***This is first commit***
-commit from github!
+# Файл с инструкциями по Markdown и Git
