@@ -23,3 +23,12 @@
     * __git branch -M namebranch__ - меняем название главной ветки на *namebranch*
     * __git branch --remote__ - список всех веток, с учетом удаленного репозитория
 9. **git diff** - вызов изменений текущей версии файла с последним сохранением
+## Команды по работе с удаленными репозиториями
+1. **git clone _Code-link_** - 
+2. **git remote add origin _Code-link_** - 
+3. **git push** - 
+   * **git push origin namebranch**
+   * **git push -u origin namebranch** - 
+   * **git push origin -d namebranch** -
+4. **git pull** - 
+
