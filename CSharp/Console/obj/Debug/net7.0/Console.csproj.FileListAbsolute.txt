@@ -1,0 +1,15 @@
+G:\ProjectCode\Education\GB_Education\CSharp\Console\bin\Debug\net7.0\Console.exe
+G:\ProjectCode\Education\GB_Education\CSharp\Console\bin\Debug\net7.0\Console.deps.json
+G:\ProjectCode\Education\GB_Education\CSharp\Console\bin\Debug\net7.0\Console.runtimeconfig.json
+G:\ProjectCode\Education\GB_Education\CSharp\Console\bin\Debug\net7.0\Console.dll
+G:\ProjectCode\Education\GB_Education\CSharp\Console\bin\Debug\net7.0\Console.pdb
+G:\ProjectCode\Education\GB_Education\CSharp\Console\obj\Debug\net7.0\Console.csproj.AssemblyReference.cache
+G:\ProjectCode\Education\GB_Education\CSharp\Console\obj\Debug\net7.0\Console.GeneratedMSBuildEditorConfig.editorconfig
+G:\ProjectCode\Education\GB_Education\CSharp\Console\obj\Debug\net7.0\Console.AssemblyInfoInputs.cache
+G:\ProjectCode\Education\GB_Education\CSharp\Console\obj\Debug\net7.0\Console.AssemblyInfo.cs
+G:\ProjectCode\Education\GB_Education\CSharp\Console\obj\Debug\net7.0\Console.csproj.CoreCompileInputs.cache
+G:\ProjectCode\Education\GB_Education\CSharp\Console\obj\Debug\net7.0\Console.dll
+G:\ProjectCode\Education\GB_Education\CSharp\Console\obj\Debug\net7.0\refint\Console.dll
+G:\ProjectCode\Education\GB_Education\CSharp\Console\obj\Debug\net7.0\Console.pdb
+G:\ProjectCode\Education\GB_Education\CSharp\Console\obj\Debug\net7.0\Console.genruntimeconfig.cache
+G:\ProjectCode\Education\GB_Education\CSharp\Console\obj\Debug\net7.0\ref\Console.dll
