@@ -16,6 +16,8 @@
     *  **git commit -a -m "Comment"** - одновременное добавление изменения с созданием коммита и комментария
 
 5. **git log** - вызов журнала изменений
+    * **git log --all** - журнал всех изменениями, в том числе корректировки в удаленных ветках
+    * **git log --graph** - визуализация создания, слияний веток
 6. **git checkout nameversion** - возвращение к версии с названием *nameversion* (достаточно указывать первые 4 символа из названия)
 7. **git checkout master** - возвращение к ветви *master*
 8. **git branch** - вызов списка всех веток (активная -текущая ветка подсвечена зеленым)
@@ -23,11 +25,12 @@
     * __git branch -M namebranch__ - меняем название главной ветки на *namebranch*
     * __git branch --remote__ - список всех веток, с учетом удаленного репозитория
 9. **git diff** - вызов изменений текущей версии файла с последним сохранением
+10. **git merge namebranch** - добавление ветки *namebranch* в текущую ветку
 ## Команды по работе с удаленными репозиториями
-1. **git clone _Code-link_** - 
+1. **git clone _Code-link_** - создание копии репозитория с GitHub, где *Code-link*- код-ссылка этого репозитория
 2. **git remote add origin _Code-link_** - 
-3. **git push** - 
-   * **git push origin namebranch**
+3. **git push** - отправка локального репозитория в удаленное хранилище
+   * **git push origin namebranch** - отправка ветки *namebranch* в удаленный репозиторий *origin*
    * **git push -u origin namebranch** - 
    * **git push origin -d namebranch** -
 4. **git pull** - 
