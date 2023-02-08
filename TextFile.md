@@ -31,7 +31,7 @@
 2. **git remote add origin _Code-link_** - 
 3. **git push** - отправка локального репозитория в удаленное хранилище
    * **git push origin namebranch** - отправка ветки *namebranch* в удаленный репозиторий *origin*
-   * **git push -u origin namebranch** - 
-   * **git push origin -d namebranch** -
-4. **git pull** - 
+   * **git push -u origin namebranch** - для ветки *namebranch* отправка по стандарту идет в удаленный репозиторий *origin*
+   * **git push origin -d namebranch** - удаление ветки *namebranch* в удаленном репозитории *origin*
+4. **git pull** - вытаскивает коммиты с удаленного репозитория в локальную версию
 
