@@ -1,4 +1,4 @@
-### Инструкция по работе с GIT'ом:
+### `Инструкция по работе с GIT'ом`:
 ## гитхаб
 
 + **git clone** 'URL from github [https://github.com/SeregaAtepalikhin/forked_from_group555.git]  - качаем на ПК из гитХаб созданный репозиторий
