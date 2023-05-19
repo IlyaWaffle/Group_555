@@ -1,2 +1,1 @@
-***This is first commit***
-commit from github!
+дз по контролю версии
